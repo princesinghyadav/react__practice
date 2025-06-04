@@ -1,1 +1,17 @@
- 
+ .product{
+    border: 2px solid black;
+    display: grid;
+    /* width: 30%;  */
+    /* grid-template-columns: repeat(4,1fr); */
+    grid-template-columns: auto;
+    margin: 12px;
+ }
+
+ .imh{
+    width: 30%;
+ }
+
+ .styling{
+    display: flex;
+    flex-direction: column;
+ }
